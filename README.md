@@ -4,6 +4,7 @@ This is a sample full stack REST API running in Node using express including Pos
 
 Structure
 
+```
 project   
 │   .env <- Variables
 |
@@ -31,7 +32,7 @@ project
 |            
 └───utils <- Bootstrap/utility methods for starting service (e.g. apply metadata, initialise database etc.)
       index.ts
-    
+``` 
 
 ## Run locally
 
