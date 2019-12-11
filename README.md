@@ -34,6 +34,19 @@ project
       index.ts
 ```
 
+Lines of code
+
+
+       4 database/models/user.ts
+      16 middleware/common.ts
+       7 middleware/index.ts
+      16 server.ts
+       3 services/index.ts
+      21 services/user/routes.ts
+      13 services/user/userController.ts
+      45 utils/index.ts
+     125 total
+
 ## Run locally
 
 0. Choose a postgres instance to test with (e.g. set up locally with Docker)
