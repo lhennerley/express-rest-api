@@ -30,7 +30,7 @@ export const applyRoutes = (routes: Route[], router: Router) => {
   }
 };
 
-// Database utility
+// Database bootstrap
 import pgPromise = require("pg-promise");
 
 // Initializing the library:
