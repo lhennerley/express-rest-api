@@ -36,7 +36,6 @@ project
 
 Lines of code
 
-
        4 database/models/user.ts
       16 middleware/common.ts
        7 middleware/index.ts
@@ -57,3 +56,32 @@ Lines of code
 1. Insert some data into `sample.users`
 1. Run API `npm run dev`
 1. Naviagte to http://localhost:3000/api/v1/users
+
+## Framework
+
+### Database Migrations
+
+[node-pg-migrate](https://github.com/salsita/node-pg-migrate)
+
+[![NPM version](https://img.shields.io/npm/v/node-pg-migrate.svg)](https://www.npmjs.com/package/node-pg-migrate)
+
+- `npm run create-migration my migration`
+  - Scaffholds a migration called `..._my_migration-migration.js` inside `./src/database/migrations`
+- `npm run migrate-database`
+  - Applies any migrations that haven't been run
+
+### Database Access
+
+[pg-promise](https://github.com/vitaly-t/pg-promise)
+
+[![NPM version](https://img.shields.io/npm/v/pg-promise.svg)](https://www.npmjs.com/package/pg-promise)
+
+### Environment
+
+[dotenv](https://github.com/motdotla/dotenv)
+
+[![NPM version](https://img.shields.io/npm/v/dotenv.svg)](https://www.npmjs.com/package/dotenv)
+
+[pm2](github.com/Unitech/pm2)
+
+[![NPM version](https://img.shields.io/npm/v/pm2.svg)](https://www.npmjs.com/package/dotenv)
